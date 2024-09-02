@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.app{
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+.app h1{
+    font-size: 25px;
+    font-weight: 700;
+    border-bottom: solid 2px gray;
+}
+#question{
+    font-size: 20px;
+}
+#answers .btn{
+    width: 100%;
+    padding: 6px 15px;
+    border: solid 2px #222;
+    background: #fff;
+    color: #222;
+    cursor: pointer;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#answers .btn:hover:not([disabled]){
+    background: #222;
+    color: #fff;
+}
+#answers .btn:disabled{
+    cursor: no-drop;
+}
+
+#next{
+    padding: 5px 50px;
+    background:#001e4d ;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    display: none;
+    white-space: nowrap;
+    color: #fff;
+}
+
+#answers .btn.correct{
+    background: #9aeabc;
+}
+#answers .btn.incorrect{
+    background: #ff9393;
+
+}
